@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+}
+
+#todo-container{
+    max-width: 300px;
+    margin: auto;
+    background-color: aqua;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+input, button{
+    padding: 10px;
+    margin: 5px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.done{
+    text-decoration: line-through;
+    color: gray;
+}
